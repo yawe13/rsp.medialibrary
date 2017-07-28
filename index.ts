@@ -6,7 +6,7 @@ import * as path from "path";
 import * as fs from "fs";
 import { rsiLogger } from "../../log";
 
-import { Service, Resource, Element, ResourceUpdate, StatusCode, ElementResponse, CollectionResponse } from "../rsiPlugin";
+import { Service, Resource, Element, ResourceUpdate, StatusCode, ElementResponse, CollectionResponse } from "../../plugins/rsiPlugin";
 import { trackObject } from "./schema";
 
 class Medialibrary extends Service {
